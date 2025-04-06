@@ -1,10 +1,11 @@
-import { Inter } from "next/font/google";
+import {Golos_Text, Inter} from "next/font/google";
 import { NextUIProvider } from "@nextui-org/react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const golos = Golos_Text({subsets: ["cyrillic"]})
 
 export const metadata = {
     title: "Brat AI",
@@ -14,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="ru">
-            <body className={`${inter.className} bg-[#f5f5f5] -z-50 overflow-x-hidden text-[#393939] tracking-tighter`}>
+            <body className={`${golos.className} bg-[#f5f5f5] -z-50 overflow-x-hidden text-[#393939] tracking-tighter`}>
                 <NextUIProvider className="overflow-x-hidden">
                     <Header />
                     {children}

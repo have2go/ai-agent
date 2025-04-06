@@ -9,7 +9,7 @@ export default function Footer() {
                 <Link href="/" className="MD:w-24 1.5SM:w-32">
                     <Image src={logoBlack} alt="Ai Agent" />
                 </Link>
-                <div className="flex gap-10 font-medium LG:gap-5 LG:text-[15px] MD:text-sm MD:gap-2 1.5SM:flex-col 1.5SM:items-center 1.5SM:text-[#9594a7] 1.5SM:gap-4">
+                <div className="flex gap-10 font-medium LG:gap-5 LG:text-[15px] MD:text-sm MD:gap-2 1.5SM:flex-col 1.5SM:items-center 1.5SM:text-[#9594a7] 1.5SM:gap-4 tracking-normal">
                     <Link href="#">О нас</Link>
                     <Link href="#">Что мы умеем</Link>
                     <Link href="/our-works">Кейсы</Link>

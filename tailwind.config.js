@@ -14,7 +14,12 @@ module.exports = {
                 "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
                 "surface/accent": "linear-gradient(90deg, rgba(82,78,248,1) 0%, rgba(151,71,255,1) 100%);",
             },
-            colors: {},
+            colors: {
+                "stroke/base": "#ECECEC",
+                "surface/base/primary": "#FDFDFD",
+                "text-and-icons/secondary": "#9594A7",
+                "text-and-icons/base": "#393939"
+            },
             screens: {
                 "2XL": { max: "1600px" },
                 // => @media (max-width: 1536px) { ... }

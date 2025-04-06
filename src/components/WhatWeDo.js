@@ -11,7 +11,7 @@ import mobIconArrow from "/public/m_icon-arrow.svg";
 export default function WhatWeDo() {
     return (
         <section
-            className="py-[106px] flex flex-col gap-20 XL:gap-16 XL:py-20 LG:py-12 LG:gap-12 MD:py-6 MD:gap-6"
+            className="py-[106px] flex flex-col gap-20 XL:gap-16 XL:py-20 LG:py-12 LG:gap-12 MD:pt-8 MD:pb-10 MD:gap-6"
             id="what-we-do"
         >
             <h2 className="text-[75px] mx-auto w-fit bg-surface/accent bg-clip-text text-transparent font-medium XL:text-[64px] LG:text-6xl MD:text-4xl 1.5SM:text-[32px]">
