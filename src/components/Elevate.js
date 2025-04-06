@@ -12,7 +12,7 @@ import vk from "/public/icon-vk.svg";
 export default function Elevate() {
     return (
         <section className="grid grid-cols-2 gap-8 pb-10 LG:gap-4 MD:grid-cols-1">
-            <div className="flex flex-col items-center justify-between gap-[50px] bg-white rounded-2xl p-12 pb-0 z-20 XL:p-8 XL:pb-0 LG:px-4 LG:pt-6 LG:text-2xl MD:gap-8 MD:pt-8 MD:pb-10">
+            <div className="flex flex-col items-center justify-between gap-[50px] bg-white rounded-2xl p-12 pb-0 z-20 XL:p-8 XL:pb-0 LG:px-4 LG:pt-6 LG:text-2xl MD:gap-8 MD:pt-8 MD:0">
                 <div className="flex flex-col gap-4 max-w-[450px]">
                     <h3
                         className={`mx-auto text-[32px] leading-[130%] font-medium max-w-[95%] text-center XL:text-3xl LG:text-2xl 1.5SM:text-[22px] XXSM:text-lg`}
