@@ -20,7 +20,7 @@ export default function CasePage({ params }) {
     return (
         <main className="max-w-[1228px] mx-auto XL:px-8 LG:px-4 pb-28 MD:pb-6">
             <BackToCasesButton />
-            <section className="grid grid-cols-[430px_1fr] w-full mx-auto LG:grid-cols-1 LG:max-w-[80%] MD:max-w-full">
+            <section className="grid grid-cols-[430px_1fr] w-full mx-auto LG:grid-cols-1 LG:max-w-[80%] MD:max-w-full gap-20 XL:gap-10">
                 <div className="LG:hidden">
                     <CaseInfo caseData={caseData} />
                 </div>
