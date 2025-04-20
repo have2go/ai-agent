@@ -1,13 +1,12 @@
 import { Chip, Button } from "@nextui-org/react";
 import Image from "next/image";
-import pcSmall from "/public/pc-small.jpg";
 import Link from "next/link";
 
-export default function CaseSmall({ id, title, platforms }) {
+export default function CaseSmall({ id, title, platforms, img }) {
     return (
         <div className="flex flex-col p-5 bg-white rounded-2xl">
             {/* Изображение */}
-            <Image src={pcSmall} alt="" className="rounded-[10px]" />
+            <Image src={img} alt="" className="rounded-[10px]" />
 
             {/* Основной контент */}
             <div className="flex flex-col justify-between h-full">

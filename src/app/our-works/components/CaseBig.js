@@ -1,10 +1,9 @@
 import { Chip, Button } from "@nextui-org/react";
 import Image from "next/image";
 import fog3 from "/public/fog3.png";
-import pcBig from "/public/pc-big.jpg";
 import Link from "next/link";
 
-export default function CaseBig({ id, title, text, platforms, fog = false, type }) {
+export default function CaseBig({ id, title, text, platforms, fog = false, type, img }) {
     switch (type) {
         case "ltr": {
             return (
@@ -35,7 +34,6 @@ export default function CaseBig({ id, title, text, platforms, fog = false, type 
                             </Link>
 
                             <div className="flex gap-4 items-center">
-                                <p className="text-[#9594a7] text-lg">Платформы</p>
                                 <div className="flex gap-3">
                                     {platforms.map((el, i) => {
                                         return <Image key={i} src={el.src} alt={el.alt} className="max-w-[39px]" />;
@@ -46,7 +44,7 @@ export default function CaseBig({ id, title, text, platforms, fog = false, type 
                     </div>
                     <div className="rounded-2xl z-50 h-full">
                         <div className="p-2 bg-white rounded-2xl z-50 h-full">
-                            <Image src={pcBig} alt="" className="rounded-[10px] h-full" />
+                            <Image src={img} alt="" className="rounded-[10px] h-full" />
                         </div>
                     </div>
                     {fog && (
@@ -61,7 +59,7 @@ export default function CaseBig({ id, title, text, platforms, fog = false, type 
                 <div className="grid grid-cols-[1fr_483px] gap-8 relative XL:grid-cols-[1fr_415px]">
                     <div className=" rounded-2xl z-50 h-full">
                         <div className="p-2 bg-white rounded-2xl z-50 h-full">
-                            <Image src={pcBig} alt="" className="rounded-[10px] h-full" />
+                            <Image src={img} alt="" className="rounded-[10px] h-full" />
                         </div>
                     </div>
                     <div className="p-12 flex flex-col gap-20 justify-between bg-white rounded-2xl z-50 XL:p-8 XL:gap-12">
@@ -89,7 +87,6 @@ export default function CaseBig({ id, title, text, platforms, fog = false, type 
                                 </Button>
                             </Link>
                             <div className="flex gap-4 items-center">
-                                <p className="text-[#9594a7] text-lg">Платформы</p>
                                 <div className="flex gap-3">
                                     {platforms.map((el, i) => {
                                         return <Image key={i} src={el.src} alt={el.alt} className="max-w-[39px]" />;

@@ -8,7 +8,10 @@ import fog2 from "/public/fog2.png";
 
 export default function HowItWorks() {
     return (
-        <section className="py-[146px] flex flex-col gap-20 XL:gap-16 XL:py-20 LG:py-12 LG:gap-12 MD:pt-8 MD:pb-10 MD:gap-6">
+        <section
+            id="how-it-works"
+            className="py-[146px] flex flex-col gap-20 XL:gap-16 XL:py-20 LG:py-12 LG:gap-12 MD:pt-8 MD:pb-10 MD:gap-6"
+        >
             <h2 className="text-[75px] mx-auto w-fit font-medium XL:text-[64px] LG:text-6xl MD:text-4xl 1.5SM:text-[32px]">
                 Как это работает?
             </h2>

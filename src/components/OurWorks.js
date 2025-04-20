@@ -3,7 +3,9 @@ import Link from "next/link";
 
 import { Chip, Button } from "@nextui-org/react";
 
-import pcSmall from "/public/pc-small.jpg";
+import case1 from "/public/case-1-sm.jpg"
+import case2 from "/public/case-2-sm.jpg"
+import case3 from "/public/case-3-sm.jpg"
 
 export default function OurWorks() {
     return (
@@ -19,9 +21,9 @@ export default function OurWorks() {
             </div>
             <div className="grid grid-cols-3 gap-8 LG:gap-4 MD:grid-cols-2 1.5SM:grid-cols-1">
                 <div className="flex flex-col p-2 bg-white rounded-2xl">
-                    <Image src={pcSmall} alt="" className="rounded-[10px]" />
-                    <div className="py-6 px-5 flex flex-col gap-3 LG:px-2 LG:py-4 LG:gap-2">
-                        <p className="text-[26px] font-medium leading-[140%] LG:text-xl LG:leading-normal">
+                    <Image src={case1} alt="" className="rounded-[10px] object-cover w-full" />
+                    <div className="py-6 px-5 flex flex-col gap-3 XL:px-2 LG:py-4 LG:gap-2">
+                        <p className="text-[26px] font-medium leading-[140%] XL:text-xl LG:leading-normal">
                             Как мы втрое увеличили конверсию продаж для гончарной студии
                         </p>
                         <Chip
@@ -33,9 +35,9 @@ export default function OurWorks() {
                     </div>
                 </div>
                 <div className="flex flex-col p-2 bg-white rounded-2xl">
-                    <Image src={pcSmall} alt="" className="rounded-[10px]" />
-                    <div className="py-6 px-5 flex flex-col gap-3 LG:px-2 LG:py-4 LG:gap-2">
-                        <p className="text-[26px] font-medium leading-[140%] LG:text-xl LG:leading-normal">
+                    <Image src={case2} alt="" className="rounded-[10px] w-full" />
+                    <div className="py-6 px-5 flex flex-col gap-3 XL:px-2 LG:py-4 LG:gap-2">
+                        <p className="text-[26px] font-medium leading-[140%] XL:text-xl LG:leading-normal">
                             Как мы помогли сети салонов красоты больше не упускать клиентов
                         </p>
                         <Chip
@@ -47,9 +49,9 @@ export default function OurWorks() {
                     </div>
                 </div>
                 <div className="flex flex-col p-2 bg-white rounded-2xl">
-                    <Image src={pcSmall} alt="" className="rounded-[10px]" />
-                    <div className="py-6 px-5 flex flex-col gap-3 LG:px-2 LG:py-4 LG:gap-2">
-                        <p className="text-[26px] font-medium leading-[140%] LG:text-xl LG:leading-normal">
+                    <Image src={case3} alt="" className="rounded-[10px] w-full" />
+                    <div className="py-6 px-5 flex flex-col gap-3 XL:px-2 LG:py-4 LG:gap-2">
+                        <p className="text-[26px] font-medium leading-[140%] XL:text-xl LG:leading-normal">
                             Как автоматизировать рассылки и обработку лидов на 300 товаров
                         </p>
                         <Chip

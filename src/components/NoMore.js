@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import fog4 from "../../public/fog4.png";
 import fog5 from "../../public/fog5.png";
-import {Button} from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 import google from "/public/icon-google.svg";
 import excel from "/public/icon-excel.svg";
 import amo from "/public/icon-amo.svg";
@@ -15,7 +16,7 @@ import hh from "/public/icon-hh.svg";
 
 export default function NoMore() {
     return (
-        <section className="py-[106px] relative MD:py-20 MD:px-4 overflow-hidden text-text-and-icons/base">
+        <section id="no-more" className="py-[106px] relative MD:py-20 MD:px-4 overflow-hidden text-text-and-icons/base">
             <div className="flex flex-col gap-14 items-center max-w-[1228px] mx-auto text-lg">
                 <Image
                     src={fog4}
@@ -28,23 +29,21 @@ export default function NoMore() {
                     className="absolute top-0 left-0 w-full contain rounded-tl-[40px] rounded-tr-[40px] SM:block hidden"
                 />
                 <div className="flex flex-col items-center gap-8 z-50">
-                    <h2
-                        className="font-medium text-[75px] leading-[80px] tracking-tighter z-50 LG:text-6xl MD:text-4xl 1.5SM:text-[32px] text-center">
+                    <h2 className="font-medium text-[75px] leading-[80px] tracking-tighter z-50 LG:text-6xl MD:text-4xl 1.5SM:text-[32px] text-center">
                         Незаменимых больше&nbsp;нет
                     </h2>
                     <p className="max-w-[543px] w-full text-center z-50 SM:hidden block">
                         Соберите команду из AI-агентов, которые решат любые задачи. В нашей библиотеке готовых решений
-                        можно
-                        выбрать нужного работника и быстро встроить его в ваши процессы.
+                        можно выбрать нужного работника и быстро встроить его в ваши процессы.
                     </p>
-                    <p className="max-w-[543px] w-full text-center z-50 SM:block hidden">Нет идей? Не проблема! У нас
-                        есть библиотека готовых AI-сотрудников под разные задачи и сферы, которые помогут вам быстро
-                        встроить его в ваши процессы.</p>
+                    <p className="max-w-[543px] w-full text-center z-50 SM:block hidden">
+                        Нет идей? Не проблема! У нас есть библиотека готовых AI-сотрудников под разные задачи и сферы,
+                        которые помогут вам быстро встроить его в ваши процессы.
+                    </p>
                 </div>
                 <div className="grid grid-cols-2 grid-rows-3 gap-4 z-50 MD:grid-cols-1">
                     {/* Ячейка 1 */}
-                    <div
-                        className="bg-surface/base/primary border-1 border-stroke/base rounded-2xl flex flex-col justify-between py-8 px-9 SM:p-6">
+                    <div className="bg-surface/base/primary border-1 border-stroke/base rounded-2xl flex flex-col justify-between py-8 px-9 SM:p-6">
                         <div>
                             <h5 className="mb-4 text-[26px] SM:text-[22px]">Генерация лидов</h5>
                             <p className="text-text-and-icons/secondary">
@@ -56,15 +55,13 @@ export default function NoMore() {
                             </p>
                         </div>
                         <div className="flex items-center text-text-and-icons/secondary gap-[11px] pt-6">
-                            <p>Сервисы</p>
-                            <Image src={google} alt="google" className="max-w-[39px]"/>
-                            <Image src={excel} alt="excel" className="max-w-[39px]"/>
+                            <Image src={google} alt="google" className="max-w-[39px]" />
+                            <Image src={excel} alt="excel" className="max-w-[39px]" />
                         </div>
                     </div>
 
                     {/* Ячейка 2 */}
-                    <div
-                        className="bg-surface/base/primary border-1 border-stroke/base rounded-2xl flex flex-col justify-between py-8 px-9">
+                    <div className="bg-surface/base/primary border-1 border-stroke/base rounded-2xl flex flex-col justify-between py-8 px-9">
                         <div>
                             <h5 className="mb-4 text-[26px] SM:text-[22px]">Операционный директор</h5>
                             <p className="text-text-and-icons/secondary">
@@ -73,15 +70,13 @@ export default function NoMore() {
                             </p>
                         </div>
                         <div className="flex items-center text-text-and-icons/secondary gap-[11px] pt-6">
-                            <p>Сервисы</p>
-                            <Image src={amo} alt="amo" className="max-w-[39px]"/>
-                            <Image src={telegram} alt="telegram" className="max-w-[39px]"/>
+                            <Image src={amo} alt="amo" className="max-w-[39px]" />
+                            <Image src={telegram} alt="telegram" className="max-w-[39px]" />
                         </div>
                     </div>
 
                     {/* Ячейка 3 */}
-                    <div
-                        className="bg-surface/base/primary border-1 border-stroke/base rounded-2xl flex flex-col justify-between py-8 px-9">
+                    <div className="bg-surface/base/primary border-1 border-stroke/base rounded-2xl flex flex-col justify-between py-8 px-9">
                         <div>
                             <h5 className="mb-4 text-[26px] SM:text-[22px]">Медиа менеджер 2.0</h5>
                             <p className="text-text-and-icons/secondary">
@@ -96,16 +91,14 @@ export default function NoMore() {
                             </p>
                         </div>
                         <div className="flex items-center text-text-and-icons/secondary gap-[11px] pt-6">
-                            <p>Сервисы</p>
-                            <Image src={instagram} alt="instagram" className="max-w-[39px]"/>
-                            <Image src={telegram} alt="telegram" className="max-w-[39px]"/>
-                            <Image src={vk} alt="vk" className="max-w-[39px]"/>
+                            <Image src={instagram} alt="instagram" className="max-w-[39px]" />
+                            <Image src={telegram} alt="telegram" className="max-w-[39px]" />
+                            <Image src={vk} alt="vk" className="max-w-[39px]" />
                         </div>
                     </div>
 
                     {/* Ячейка 4 */}
-                    <div
-                        className="bg-surface/base/primary border-1 border-stroke/base rounded-2xl flex flex-col justify-between py-8 px-9">
+                    <div className="bg-surface/base/primary border-1 border-stroke/base rounded-2xl flex flex-col justify-between py-8 px-9">
                         <div>
                             <h5 className="mb-4 text-[26px] SM:text-[22px]">Служба поддержки</h5>
                             <p className="text-text-and-icons/secondary">
@@ -113,15 +106,13 @@ export default function NoMore() {
                             </p>
                         </div>
                         <div className="flex items-center text-text-and-icons/secondary gap-[11px] pt-6">
-                            <p>Сервисы</p>
-                            <Image src={colors} alt="colors" className="max-w-[39px]"/>
-                            <Image src={whatsapp} alt="whatsapp" className="max-w-[39px]"/>
+                            <Image src={colors} alt="colors" className="max-w-[39px]" />
+                            <Image src={whatsapp} alt="whatsapp" className="max-w-[39px]" />
                         </div>
                     </div>
 
                     {/* Ячейка 5 */}
-                    <div
-                        className="bg-surface/base/primary border-1 border-stroke/base rounded-2xl flex flex-col justify-between py-8 px-9">
+                    <div className="bg-surface/base/primary border-1 border-stroke/base rounded-2xl flex flex-col justify-between py-8 px-9">
                         <div>
                             <h5 className="mb-4 text-[26px] SM:text-[22px]">Маркетолог</h5>
                             <p className="text-text-and-icons/secondary">
@@ -137,16 +128,14 @@ export default function NoMore() {
                             </p>
                         </div>
                         <div className="flex items-center text-text-and-icons/secondary gap-[11px] pt-6">
-                            <p>Сервисы</p>
-                            <Image src={vk} alt="vk" className="max-w-[39px]"/>
-                            <Image src={facebook} alt="facebook" className="max-w-[39px]"/>
-                            <Image src={excel} alt="excel" className="max-w-[39px]"/>
+                            <Image src={vk} alt="vk" className="max-w-[39px]" />
+                            <Image src={facebook} alt="facebook" className="max-w-[39px]" />
+                            <Image src={excel} alt="excel" className="max-w-[39px]" />
                         </div>
                     </div>
 
                     {/* Ячейка 6 */}
-                    <div
-                        className="bg-surface/base/primary border-1 border-stroke/base rounded-2xl flex flex-col justify-between py-8 px-9">
+                    <div className="bg-surface/base/primary border-1 border-stroke/base rounded-2xl flex flex-col justify-between py-8 px-9">
                         <div>
                             <h5 className="mb-4 text-[26px] SM:text-[22px]">HR-менеджер</h5>
                             <p className="text-text-and-icons/secondary">
@@ -159,15 +148,16 @@ export default function NoMore() {
                             </p>
                         </div>
                         <div className="flex items-center text-text-and-icons/secondary gap-[11px] pt-6">
-                            <p>Сервисы</p>
-                            <Image src={hh} alt="hh" className="max-w-[39px]"/>
-                            <Image src={whatsapp} alt="whatsapp" className="max-w-[39px]"/>
+                            <Image src={hh} alt="hh" className="max-w-[39px]" />
+                            <Image src={whatsapp} alt="whatsapp" className="max-w-[39px]" />
                         </div>
                     </div>
                 </div>
-                <Button className="bg-surface/accent text-white h-[52px] text-[18px] max-w-[186px] w-full z-50">
-                    Узнать больше
-                </Button>
+                <Link href="https://t.me/CEOBRAT" target="_blank">
+                    <Button className="bg-surface/accent text-white h-[52px] text-[18px] px-8 z-50">
+                        Обсудить внедрение
+                    </Button>
+                </Link>
             </div>
         </section>
     );

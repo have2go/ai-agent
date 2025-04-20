@@ -1,5 +1,4 @@
 import BackToCasesButton from "./components/BackToCases";
-import pcBig from "/public/pc-big.jpg";
 import Image from "next/image";
 
 import { sales } from "@/cases/sales";
@@ -26,7 +25,7 @@ export default function CasePage({ params }) {
                 </div>
                 <div className="flex flex-col gap-20 LG:gap-8">
                     <div className="rounded-2xl z-50 h-full">
-                        <Image src={pcBig} alt="" className="rounded-[10px] h-full" />
+                        <Image src={caseData.img} alt="" className="rounded-[10px] h-full" />
                     </div>
                     <div className="lg:hidden">
                         <CaseInfo caseData={caseData} />

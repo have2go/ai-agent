@@ -1,16 +1,1 @@
-<svg width="1082" height="979" viewBox="0 0 1082 979" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_f_259_351)">
-<path d="M748.78 397.811C840.267 489.298 852.317 625.579 775.693 702.203C699.069 778.827 675.879 628.816 584.392 537.328C346.748 502.288 199.023 443.946 275.647 367.323C496.969 146 657.292 306.323 748.78 397.811Z" fill="url(#paint0_linear_259_351)"/>
-</g>
-<defs>
-<filter id="filter0_f_259_351" x="0.282455" y="0.566879" width="1080.85" height="977.736" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="127.505" result="effect1_foregroundBlur_259_351"/>
-</filter>
-<linearGradient id="paint0_linear_259_351" x1="287.687" y1="433.326" x2="566.571" y2="188.671" gradientUnits="userSpaceOnUse">
-<stop stop-color="#524EF8"/>
-<stop offset="1" stop-color="#9747FF"/>
-</linearGradient>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1082" height="979" fill="none"><g filter="url(#a)"><path fill="url(#b)" d="M748.78 397.811c91.487 91.487 103.537 227.768 26.913 304.392s-99.814-73.387-191.301-164.875c-237.644-35.04-385.369-93.382-308.745-170.005 221.322-221.323 381.645-61 473.133 30.488"/></g><defs><linearGradient id="b" x1="287.687" x2="566.571" y1="433.326" y2="188.671" gradientUnits="userSpaceOnUse"><stop stop-color="#524EF8"/><stop offset="1" stop-color="#9747FF"/></linearGradient><filter id="a" width="1080.85" height="977.736" x=".282" y=".567" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_259_351" stdDeviation="127.505"/></filter></defs></svg>

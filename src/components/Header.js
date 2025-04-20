@@ -11,14 +11,16 @@ export default function Header() {
                     <Image src={logo} alt="Brat Ai" />
                 </Link>
                 <div className="flex gap-10 font-medium LG:gap-5 LG:text-[15px] MD:text-sm MD:gap-2 1.5SM:hidden">
-                    <Link href="#">О нас</Link>
+                    <Link href="/#how-it-works">О нас</Link>
                     <Link href="/#what-we-do">Что мы умеем</Link>
                     <Link href="/our-works">Кейсы</Link>
-                    <Link href="#">Возможности</Link>
+                    <Link href="/#no-more">Возможности</Link>
                 </div>
-                <Button className="text-[#524EF8] bg-transparent border border-[#524EF8] h-[52px] rounded-[13px] max-w-[114px] w-full MD:h-10 MD:max-w-24 1.5SM:max-w-[114px]">
-                    Нанять
-                </Button>
+                <Link href="https://t.me/CEOBRAT" target="_blank">
+                    <Button className="text-[#524EF8] bg-transparent border border-[#524EF8] h-[52px] rounded-[13px] MD:h-10 ">
+                        Начать
+                    </Button>
+                </Link>
             </div>
         </header>
     );
