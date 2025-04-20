@@ -11,7 +11,7 @@ export default function Header() {
                     <Image src={logo} alt="Brat Ai" />
                 </Link>
                 <div className="flex gap-10 font-medium LG:gap-5 LG:text-[15px] MD:text-sm MD:gap-2 1.5SM:hidden">
-                    <Link href="/#how-it-works">О нас</Link>
+                    <Link href="/#about-us">О нас</Link>
                     <Link href="/#what-we-do">Что мы умеем</Link>
                     <Link href="/our-works">Кейсы</Link>
                     <Link href="/#no-more">Возможности</Link>

@@ -59,6 +59,7 @@ export default function Main() {
                     <Image loading="eager" src={fog1} alt="#" className="object-contain" />
                 </div>
             </div>
+            <div className="" id="about-us"></div>
         </section>
     );
 }

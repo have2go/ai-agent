@@ -47,8 +47,8 @@ export default function NoMore() {
                         <div>
                             <h5 className="mb-4 text-[26px] SM:text-[22px]">Генерация лидов</h5>
                             <p className="text-text-and-icons/secondary">
-                                Создай компания по генерации лидов, нацеленную на владельцев компании в регионе MENA и
-                                склонять их к{" "}
+                                Создай компанию по генерации лидов, нацеленную на владельцев компании в регионе MENA и
+                                склоняй их к{" "}
                                 <span className="bg-surface/accent bg-clip-text text-transparent">
                                     &#123;желаемое&nbsp;действие&#125;.
                                 </span>
@@ -84,7 +84,7 @@ export default function NoMore() {
                                 <span className="bg-surface/accent bg-clip-text text-transparent">
                                     &#123;фото&nbsp;и&nbsp;описание&#125;
                                 </span>{" "}
-                                и ответь на все комментарии под постом используя{" "}
+                                и ответь на все комментарии под постом, используя{" "}
                                 <span className="bg-surface/accent bg-clip-text text-transparent">
                                     &#123;база&nbsp;знаний&#125;.
                                 </span>
@@ -102,7 +102,7 @@ export default function NoMore() {
                         <div>
                             <h5 className="mb-4 text-[26px] SM:text-[22px]">Служба поддержки</h5>
                             <p className="text-text-and-icons/secondary">
-                                Помогай клиентам с запросами и претензиями, а также создайте билеты поддержки.
+                                Помогай клиентам с запросами и претензиями, а также создайте тикеты поддержки.
                             </p>
                         </div>
                         <div className="flex items-center text-text-and-icons/secondary gap-[11px] pt-6">
