@@ -47,7 +47,7 @@ export default function OurWorks() {
                         fog
                         type="ltr"
                     />
-                    <CaseBig
+                    <CaseBigpcSmall
                         id={beauty.id}
                         title={beauty.title}
                         text={beauty.text}
