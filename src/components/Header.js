@@ -10,17 +10,31 @@ export default function Header() {
                 <Link href="/" className="MD:w-24 1.5SM:w-32">
                     <Image src={logo} alt="Brat Ai" />
                 </Link>
-                <div className="flex gap-10 font-medium LG:gap-5 LG:text-[15px] MD:text-sm MD:gap-2 1.5SM:hidden">
+                <div className="flex gap-10 font-medium LG:gap-5 LG:text-[15px] MD:text-sm MD:hidden">
                     <Link href="/#about-us">О нас</Link>
                     <Link href="/#what-we-do">Что мы умеем</Link>
                     <Link href="/our-works">Кейсы</Link>
                     <Link href="/#no-more">Возможности</Link>
                 </div>
-                <Link href="https://t.me/CEOBRAT" target="_blank">
-                    <Button className="text-[#524EF8] bg-transparent border border-[#524EF8] h-[52px] rounded-[13px] MD:h-10 ">
-                        Начать
-                    </Button>
-                </Link>
+                <div className="flex gap-3">
+                    <div className="flex flex-col justify-center items-end text-sm MD:text-xs">
+                        <a href="tel:+79990270029" className="hover:underline cursor-pointer">
+                            +7(999)027-00-29
+                        </a>
+                        <Link
+                            href="https://t.me/CEOBRAT"
+                            target="_blank"
+                            className="bg-surface/accent bg-clip-text text-transparent"
+                        >
+                            @CEOBRAT
+                        </Link>
+                    </div>
+                    <Link href="https://t.me/CEOBRAT" target="_blank">
+                        <Button className="text-[#524EF8] bg-transparent border border-[#524EF8] h-[52px] rounded-[13px] MD:h-10 ">
+                            Начать
+                        </Button>
+                    </Link>
+                </div>
             </div>
         </header>
     );
